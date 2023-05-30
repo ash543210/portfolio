@@ -10,7 +10,7 @@ const DetailForm = (props) => {
   const submitHandler = async () => {
     const data = { message: message, email: email };
     console.log(data);
-    const respose = await fetch("http://localhost:3001/", {
+    const respose = await fetch("http://localhost:3005/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
